@@ -1,0 +1,15 @@
+ h1 {
+ color: blue; font-style: serif;
+ }
+ p {
+ 	color: red;
+ 	font-style: italic;
+ }
+ body {
+    background-color: dodgerblue;
+}
+h1 {
+    color: blue;
+    text-align: center;
+
+    

@@ -1,0 +1,85 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Kalles Hemsida</title>
+     
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <a href="menyval1.html"></a>
+        <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Startsida</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="Scratch.html">Scratch</a></li>
+                        <li><a href="Fotboll.html">Fotboll</a></li>
+                        <li><a href="Om mig.html">Om Mig</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+ <main><h1>Här får ni veta lite om mig!</h1>
+
+<p>Jag är 12 år och heter Kalle. Jag gillar att hoppa studsmatta, spela fotoll och handboll. Jag har en syster, mamma och pappa i min familj. Mitt favorit djur är Kapybaran. Här nere kan ni se en bild av den!</p>
+<p>Jag spenderar otroligt mycket tid på YouTube. Jag vet att jag spenderat mer än 700GB av surf på det xD.</p>
+<img src="bilder/thOQSWJ1MQ.jpg">
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+    
+
+      <h3></h3>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="col-sm-4">
+    
+
+      <h3></h3>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="col-sm-4">
+     
+
+      <h3></h3> 
+      <p></p>
+      <p></p>
+    </div>
+  </div>
+</div>
+   
+    </main>
+</body>
+</html>
